@@ -1,14 +1,15 @@
 import VoorkeurStudent from '../@types/VoorkeurStudent'
+import StageLocation from './StageLocation'
+import PraktijkType from '../@types/PraktijkType'
 
 interface Stage {
   _id: any;
 
   praktijk: string;
-  praktijkType: string; // TODO make special type
+  praktijkType: PraktijkType; // TODO make special type
   beschrijving: string;
-  adres: string[];
+  locations: StageLocation[];
   voorkeurStudent: VoorkeurStudent;
-  stageduur: string;
   stagedagen: string; // TODO check if days fit
   contactpersoon: string;
   mail: string;

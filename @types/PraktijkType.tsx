@@ -1,3 +1,3 @@
-// type PraktijkType = 'gd' | 
+type PraktijkType = 'Gezelschapsdieren' | 'Landbouwhuisdieren' | 'Paard' | 'Gemengd' | 'Onbekend'
 
-// export default PraktijkType
+export default PraktijkType
