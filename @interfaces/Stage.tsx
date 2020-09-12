@@ -6,11 +6,12 @@ interface Stage {
   _id: any;
 
   praktijk: string;
-  praktijkType: PraktijkType; // TODO make special type
+  praktijkType: PraktijkType;
   beschrijving: string;
   locations: StageLocation[];
   voorkeurStudent: VoorkeurStudent;
-  stagedagen: string; // TODO check if days fit
+  stageduur: string;
+  stagedagen: string;
   contactpersoon: string;
   mail: string;
   telefoonnummer: string;

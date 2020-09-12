@@ -8,6 +8,7 @@ interface Stage {
     beschrijving: string;
     locations: StageLocation[];
     voorkeurStudent: VoorkeurStudent;
+    stageduur: string;
     stagedagen: string;
     contactpersoon: string;
     mail: string;

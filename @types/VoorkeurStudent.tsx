@@ -1,3 +1,3 @@
-type VoorkeurStudent = 'geen' | 'bsc' | 'msc'
+type VoorkeurStudent = 'Geen' | 'BSc' | 'MSc'
 
 export default VoorkeurStudent
