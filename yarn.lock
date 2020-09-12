@@ -2,6 +2,23 @@
 # yarn lockfile v1
 
 
+"@types/geojson@*":
+  version "7946.0.7"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.7.tgz#c8fa532b60a0042219cdf173ca21a975ef0666ad"
+  integrity sha512-wE2v81i4C4Ol09RtsWFAqg3BUitWbHSpSlIo+bNdsCJijO9sjme+zm+73ZMCa/qMC8UEERxzGbvmr1cffo2SiQ==
+
+"@types/leaflet@^1.5.17":
+  version "1.5.17"
+  resolved "https://registry.yarnpkg.com/@types/leaflet/-/leaflet-1.5.17.tgz#b2153dc12c344e6896a93ffc6b61ac79da251e5b"
+  integrity sha512-2XYq9k6kNjhNI7PaTz8Rdxcc8Vzwu97OaS9CtcrTxnTSxFUGwjlGjTDvhTLJU+JRSfZ4lBwGcl0SjZHALdVr6g==
+  dependencies:
+    "@types/geojson" "*"
+
+leaflet@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.7.1.tgz#10d684916edfe1bf41d688a3b97127c0322a2a19"
+  integrity sha512-/xwPEBidtg69Q3HlqPdU3DnrXQOvQU/CCHA1tcDQVzOwm91YMYaILjNp7L4Eaw5Z4sOYdbBz6koWyibppd8Zqw==
+
 module-resolver@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/module-resolver/-/module-resolver-1.0.0.tgz#d412c0b66e08588cd39347a60c3c818bc9119fb5"
