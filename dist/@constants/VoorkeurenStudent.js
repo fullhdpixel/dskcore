@@ -1,4 +1,4 @@
 Object.defineProperty(exports, "__esModule", { value: true });
-const VoorkeurenStudent = ['Geen', 'BSc', 'MSc'];
+const VoorkeurenStudent = ['Geen voorkeur', 'BSc', 'MSc'];
 exports.default = VoorkeurenStudent;
 //# sourceMappingURL=VoorkeurenStudent.js.map
