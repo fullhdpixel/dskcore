@@ -13,6 +13,7 @@ interface Stage {
     contactpersoon: string;
     mail: string;
     telefoonnummer: string;
+    website: string;
     createdAt: string;
     updatedAt: string;
 }

@@ -1,5 +1,5 @@
 import VoorkeurStudent from '../@types/VoorkeurStudent'
 
-const VoorkeurenStudent: VoorkeurStudent[] = ['Geen voorkeur', 'BSc', 'MSc']
+const VoorkeurenStudent: VoorkeurStudent[] = ['Geen voorkeur', 'Bachelor', 'Master']
 
 export default VoorkeurenStudent

@@ -1,1 +1,1 @@
-{"version":3,"file":"VoorkeurenStudent.js","sourceRoot":"","sources":["../../@constants/VoorkeurenStudent.tsx"],"names":[],"mappings":";AAEA,MAAM,iBAAiB,GAAsB,CAAC,eAAe,EAAE,KAAK,EAAE,KAAK,CAAC,CAAA;AAE5E,kBAAe,iBAAiB,CAAA"}
+{"version":3,"file":"VoorkeurenStudent.js","sourceRoot":"","sources":["../../@constants/VoorkeurenStudent.tsx"],"names":[],"mappings":";AAEA,MAAM,iBAAiB,GAAsB,CAAC,eAAe,EAAE,UAAU,EAAE,QAAQ,CAAC,CAAA;AAEpF,kBAAe,iBAAiB,CAAA"}

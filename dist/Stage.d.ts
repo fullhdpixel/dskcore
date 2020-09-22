@@ -1,7 +1,7 @@
 interface Stage {
     _id: string;
     praktijk: string;
-    praktijkType: string;
+    beschrijving: string;
     beschrijving: string;
     adres: string;
     voorkeurStudent: string;
