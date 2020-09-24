@@ -4,7 +4,7 @@ import PraktijkType from '../@types/PraktijkType';
 interface Stage {
     _id: any;
     praktijk: string;
-    praktijkType: PraktijkType;
+    praktijkType: PraktijkType[];
     beschrijving: string;
     locations: StageLocation[];
     voorkeurStudent: VoorkeurStudent;
@@ -12,6 +12,7 @@ interface Stage {
     stagedagen: string;
     contactpersoon: string;
     mail: string;
+    mailcontactpersoon: string;
     telefoonnummer: string;
     website: string;
     createdAt: string;
