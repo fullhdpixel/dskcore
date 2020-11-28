@@ -2,7 +2,7 @@ import VoorkeurStudent from '../@types/VoorkeurStudent';
 import StageLocation from './StageLocation';
 import PraktijkType from '../@types/PraktijkType';
 interface Stage {
-    _id: any;
+    _id?: any;
     praktijk: string;
     praktijkType: PraktijkType[];
     beschrijving: string;
@@ -15,7 +15,8 @@ interface Stage {
     mailcontactpersoon: string;
     telefoonnummer: string;
     website: string;
-    createdAt: string;
-    updatedAt: string;
+    createdAt?: string;
+    updatedAt?: string;
+    deleted?: boolean;
 }
 export default Stage;

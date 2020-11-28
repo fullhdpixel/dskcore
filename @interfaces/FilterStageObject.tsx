@@ -5,7 +5,8 @@ interface FilterStageObject {
   disableFilter: boolean;
   praktijkType: PraktijkType;
   voorkeurStudent: VoorkeurStudent;
-  page: number
+  page: number,
+  searchString: string | undefined,
 }
 
 export default FilterStageObject

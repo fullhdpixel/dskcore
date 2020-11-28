@@ -3,7 +3,7 @@ import StageLocation from './StageLocation'
 import PraktijkType from '../@types/PraktijkType'
 
 interface Stage {
-  _id: any;
+  _id?: any;
 
   praktijk: string;
   praktijkType: PraktijkType[];
@@ -18,8 +18,9 @@ interface Stage {
   telefoonnummer: string;
   website: string;
 
-  createdAt: string;
-  updatedAt: string;
+  createdAt?: string;
+  updatedAt?: string;
+  deleted?: boolean;
 }
 
 export default Stage
